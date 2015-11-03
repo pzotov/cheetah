@@ -504,4 +504,6 @@ if (isset($nccttimer) && is_object($nccttimer)) {
     $nccttimer->display();
 	dump($db->queries_arr);
 //    dump($db->groupped_queries);
+	dump(memory_get_usage());
 }
+
